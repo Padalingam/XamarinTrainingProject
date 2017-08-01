@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+xmlns:local="clr-namespace:Helloworld"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Helloworld.TabPage">
+	<local:RelativeLayout></local:RelativeLayout>
+	<local:AbsolutePage></local:AbsolutePage>
+	<local:RelativeLayout></local:RelativeLayout>
+	<local:AbsolutePage></local:AbsolutePage>
+	<local:RelativeLayout></local:RelativeLayout>
+	<local:AbsolutePage></local:AbsolutePage>
+	<local:RelativeLayout></local:RelativeLayout>
+	<local:AbsolutePage></local:AbsolutePage>
+	<!--<ContentPage Title="Access" Icon="ic_accessibility.png" BackgroundColor="Aqua">
+		<ContentPage.Content>
+			<StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+				<Label Text="PageOne">
+				</Label>
+			</StackLayout>
+		</ContentPage.Content>
+	</ContentPage>
+	<ContentPage Title="Access" Icon="ic_account_balance.png">
+		<ContentPage.Content>
+			<StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Gray">
+				<Label Text="PageTwo">
+				</Label>
+			</StackLayout>
+		</ContentPage.Content>
+	</ContentPage>-->
+</TabbedPage>

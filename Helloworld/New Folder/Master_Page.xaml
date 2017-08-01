@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Helloworld.Master_Page" Title="Master Page">
+	<MasterDetailPage.Master>
+		<ContentPage BackgroundColor="Yellow" Title="Master Detail" Icon="home.png">
+			<ContentPage.Content>
+				<StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="10">
+					<Label Text="Master">
+					</Label>
+					<Button Text="Menu1" Clicked="Handle_Clicked">
+					</Button>
+					<Button Text="Menu2" Clicked="Handle_Clicked1">
+					</Button>
+				</StackLayout>
+			</ContentPage.Content>
+		</ContentPage>
+	</MasterDetailPage.Master>
+	
+	<MasterDetailPage.Detail>
+		<ContentPage BackgroundColor="Gray">
+			<ContentPage.Content>
+				<StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="10">
+					<Label Text="Details">
+					</Label>
+				</StackLayout>
+			</ContentPage.Content>
+		</ContentPage>
+	</MasterDetailPage.Detail>
+</MasterDetailPage>

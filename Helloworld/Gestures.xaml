@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Helloworld.Gestures">
+	<ContentPage.Content>
+		<!--<BoxView BackgroundColor="Red">
+		</BoxView>-->
+		<Image Source="icon.png">
+			<!--<Image.GestureRecognizers>
+				<PinchGestureRecognizer PinchUpdated="OnTapGestureRecognizerTapped" />
+			</Image.GestureRecognizers>-->
+		<!--<Image.GestureRecognizers>
+				<TapGestureRecognizer Tapped="OnTapGestureRecognizerTapped" NumberOfTapsRequired="2" />
+			</Image.GestureRecognizers>-->
+		<!--<Image.GestureRecognizers>
+				<PanGestureRecognizer PanUpdated="OnTapGestureRecognizerTapped" />
+			</Image.GestureRecognizers>-->
+			</Image> 
+		
+	</ContentPage.Content>
+</ContentPage>
