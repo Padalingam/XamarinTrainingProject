@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Helloworld.GridLayout">
 	<ContentPage.Content>
-		<!--<Grid ColumnSpacing="10" RowSpacing="20">
+		<Grid ColumnSpacing="10" RowSpacing="20">
 			<Grid.RowDefinitions>
+				<RowDefinition Height="100" />
 				<RowDefinition Height="*" />
 				<RowDefinition Height="*" />
-				<RowDefinition Height="*" />
-				<RowDefinition Height="*" />
+				<RowDefinition Height="200" />
 			</Grid.RowDefinitions>
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="*" />
@@ -34,14 +34,14 @@
 			<BoxView BackgroundColor="Aqua" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" />
 			<BoxView BackgroundColor="Aqua" Grid.Row="3" Grid.Column="4" />
 			<Label Text="Aqua" Grid.Row="1" Grid.Column="1" XAlign="End" />
-			<Label Text="Aqua" Grid.Row="0" Grid.Column="0" XAlign="End" YAlign="Center" />
+			<Label Text="Aqua" Grid.Row="0" Grid.Column="0" XAlign="Center" YAlign="Center" />
 			<Label Text="Aqua" Grid.Row="0" Grid.Column="1" XAlign="Center" />
 			<Label Text="Aqua" Grid.Row="1" Grid.Column="0" XAlign="Start" />
-		</Grid>-->
-		<StackLayout Padding="0,20,0,0">
+		</Grid>
+		<!--<StackLayout Padding="0,20,0,0">
 			<Label Text="Xamarin.Forms" Margin="20" />
 			<Label Text="Xamarin.iOS" Margin="10, 15" />
 			<Label Text="Xamarin.Android" Margin="0, 20, 15, 5" />
-		</StackLayout>
+		</StackLayout>-->
 	</ContentPage.Content>
 </ContentPage>

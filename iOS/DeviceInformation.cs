@@ -10,8 +10,8 @@ namespace HelloWord.iOS
 	{
 		public string GetUniqueIdentifier()
 		{
-			return "Dummy return";
-			//return UIDevice.CurrentDevice.IdentifierForVendor.AsString();
+			//return "Dummy return";
+			return UIDevice.CurrentDevice.IdentifierForVendor.AsString();
 		}
 	}
 }

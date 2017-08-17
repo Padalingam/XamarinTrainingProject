@@ -66,7 +66,7 @@ namespace Helloworld
 		void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
 		{
 			var value = DependencyService.Get<IDeviceInfo>().GetUniqueIdentifier();
-			DisplayAlert("Simple Alert", value, "OK");
+			DisplayAlert(value, value, "OK");
 		}
 	}
 	public interface IDeviceInfo

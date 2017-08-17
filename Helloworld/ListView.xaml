@@ -8,7 +8,7 @@
 				</DataTemplate>
 			</ListView.ItemTemplate>
 		</ListView>-->
-		<ListView x:Name="lst" IsPullToRefreshEnabled="True" Refreshing="lst_Refreshing">
+		<ListView x:Name="lst" IsPullToRefreshEnabled="True" Refreshing="lst_Refreshing" ItemSelected="Handle_ItemSelected">
 			<ListView.ItemTemplate>
 				<DataTemplate>
 					<!--<TextCell Text="{Binding Name}" Detail="{Binding Num}">

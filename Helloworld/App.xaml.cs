@@ -7,7 +7,11 @@ namespace Helloworld
 		public App()
 		{
 			InitializeComponent();
-			MainPage = new Content_Page();
+			MainPage = new ListView();
+				//new AwesomeUIApp();
+				//new Content_Page();
+				//new XMLReading();
+				//new Content_Page();
 				//new TabPage();
 				//new Drawing();
 				//new DrawPage();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:Helloworld;assembly:Helloworld" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Helloworld.AwesomeUIApp">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout Padding="40" Spacing="10">
+				<local:ImageEntry TextColor="White" PlaceholderColor="Aqua" Image="home" Placeholder="Emil" HorizontalOptions="FillAndExpand" />
+				<local:UserControl>
+				</local:UserControl>
+				<local:UserControl>
+				</local:UserControl>
+				<local:UserControl>
+				</local:UserControl>
+				<local:SampleView>
+				</local:SampleView>
+			</StackLayout>
+		</ScrollView>
+	</ContentPage.Content>
+</ContentPage>
