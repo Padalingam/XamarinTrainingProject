@@ -12,7 +12,7 @@ namespace Helloworld
 		{
 			InitializeComponent();
 			var viewModel = new EmployeeViewModel();
-			EmployeeView.ItemsSource = viewModel.loadData();
+			//EmployeeView.ItemsSource = viewModel.loadData();
 		}
 
 		void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
